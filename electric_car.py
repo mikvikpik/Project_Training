@@ -1,3 +1,4 @@
+"""A set of classes that can be used to represent electric cars."""
 from car import Car
 
 # imported Car class from Car file
@@ -39,7 +40,7 @@ class Battery():
         message += " miles on a full charge."
         print(message)
 
-my_tesla = ElectricCar('tesla', 'model s', 2016)
-print(my_tesla.get_descriptive_name())
-my_tesla.battery.describe_battery()
-my_tesla.battery.get_range()
+# my_tesla = ElectricCar('tesla', 'model s', 2016)
+# print(my_tesla.get_descriptive_name())
+# my_tesla.battery.describe_battery()
+# my_tesla.battery.get_range()
